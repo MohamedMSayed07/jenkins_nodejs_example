@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('prep') {
             steps {
-                git 'https://github.com/IslamReda/jenkins_nodejs_example.git'
+                git 'https://github.com/MohamedMSayed07/jenkins_nodejs_example.git'
             }
         }
         stage('build') {
